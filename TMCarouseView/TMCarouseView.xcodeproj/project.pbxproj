@@ -15,7 +15,7 @@
 		619DB60B1D17E5DC0030A78E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619DB60A1D17E5DC0030A78E /* Assets.xcassets */; };
 		619DB60E1D17E5DC0030A78E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 619DB60C1D17E5DC0030A78E /* LaunchScreen.storyboard */; };
 		619DB6191D17E5DC0030A78E /* TMCarouseViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 619DB6181D17E5DC0030A78E /* TMCarouseViewTests.m */; };
-		619DB6251D17E6500030A78E /* TMCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 619DB6241D17E6500030A78E /* TMCarouselView.m */; };
+		619DB6291D17EFC20030A78E /* TMCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 619DB6281D17EFC20030A78E /* TMCarouselView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,8 +43,8 @@
 		619DB6141D17E5DC0030A78E /* TMCarouseViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TMCarouseViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		619DB6181D17E5DC0030A78E /* TMCarouseViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TMCarouseViewTests.m; sourceTree = "<group>"; };
 		619DB61A1D17E5DC0030A78E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		619DB6231D17E6500030A78E /* TMCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCarouselView.h; sourceTree = "<group>"; };
-		619DB6241D17E6500030A78E /* TMCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCarouselView.m; sourceTree = "<group>"; };
+		619DB6271D17EFC20030A78E /* TMCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMCarouselView.h; sourceTree = "<group>"; };
+		619DB6281D17EFC20030A78E /* TMCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMCarouselView.m; sourceTree = "<group>"; };
 		AE22C18385CDE366FA1EFC30 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		CFE04DD847CE803657961913 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,8 +103,7 @@
 				619DB6021D17E5DC0030A78E /* AppDelegate.m */,
 				619DB6041D17E5DC0030A78E /* ViewController.h */,
 				619DB6051D17E5DC0030A78E /* ViewController.m */,
-				619DB6231D17E6500030A78E /* TMCarouselView.h */,
-				619DB6241D17E6500030A78E /* TMCarouselView.m */,
+				619DB6261D17EFC20030A78E /* TMCarouseView */,
 				619DB6071D17E5DC0030A78E /* Main.storyboard */,
 				619DB60A1D17E5DC0030A78E /* Assets.xcassets */,
 				619DB60C1D17E5DC0030A78E /* LaunchScreen.storyboard */,
@@ -129,6 +128,15 @@
 				619DB61A1D17E5DC0030A78E /* Info.plist */,
 			);
 			path = TMCarouseViewTests;
+			sourceTree = "<group>";
+		};
+		619DB6261D17EFC20030A78E /* TMCarouseView */ = {
+			isa = PBXGroup;
+			children = (
+				619DB6271D17EFC20030A78E /* TMCarouselView.h */,
+				619DB6281D17EFC20030A78E /* TMCarouselView.m */,
+			);
+			path = TMCarouseView;
 			sourceTree = "<group>";
 		};
 		663ABA6226692D985418485C /* Pods */ = {
@@ -292,7 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				619DB6061D17E5DC0030A78E /* ViewController.m in Sources */,
-				619DB6251D17E6500030A78E /* TMCarouselView.m in Sources */,
+				619DB6291D17EFC20030A78E /* TMCarouselView.m in Sources */,
 				619DB6031D17E5DC0030A78E /* AppDelegate.m in Sources */,
 				619DB6001D17E5DC0030A78E /* main.m in Sources */,
 			);
