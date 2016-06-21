@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.summary      = "carouse"
 
   s.description  = <<-DESC
-                  carouse
+                  carouseView
                    DESC
 
   s.homepage     = "https://cocoapods.org"
@@ -25,9 +25,9 @@ Pod::Spec.new do |s|
   s.author    = "tangshimi"
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
-  s.source       = { :git => "https://github.com/tangshimi/TMCarouseView.git",:tag => "#{spec.version}" }
+  s.source       = { :git => "https://github.com/tangshimi/TMCarouseView.git",:tag => "1.0" }
 
-  s.source_files  = "TMCarouseView/TMCarouseView/*.{h,m}"
+  s.source_files  = "TMCarouseView/TMCarouseView/TMCarouseView/*.{h,m}"
   s.requires_arc = true
   s.dependency "SDWebImage", "~> 3.7.3"
 
