@@ -13,27 +13,24 @@ typedef void (^TMCarouseClickBlock)(NSInteger);
 @interface TMCarouselView : UIView
 
 /**
- *  图片地址
+ *  Image array
  */
 
 @property (nonatomic, copy) NSArray<NSString *> *imagesArray;
 
 /**
- *  点击的回调
+ *  The callback
  */
-
 @property (nonatomic, copy) TMCarouseClickBlock clickBlock;
 
 /**
- *  默认显示图片(本地资源)
+ *  Default image
  */
-
 @property (nonatomic, copy) NSString *defaultImage;
 
 /**
- *  自动切换图片的时间,默认4s
+ *  The default switch time is 4s
  */
-
 @property (nonatomic, assign) NSTimeInterval switchingTime;
 
 @end
