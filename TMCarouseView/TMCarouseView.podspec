@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "TMCarouseView"
-  s.version      = "1.0"
+  s.version      = "1.1"
   s.summary      = "carouse"
 
   s.description  = <<-DESC
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.author    = "tangshimi"
   s.platform     = :ios, "7.0"
   s.ios.deployment_target = "7.0"
-  s.source       = { :git => "https://github.com/tangshimi/TMCarouseView.git",:tag => "1.0" }
+  s.source       = { :git => "https://github.com/tangshimi/TMCarouseView.git",:tag => "1.1" }
 
   s.source_files  = "TMCarouseView/TMCarouseView/TMCarouseView/*.{h,m}"
   s.requires_arc = true
