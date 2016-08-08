@@ -82,7 +82,11 @@ static NSInteger kTimeInterval = 4;
         return;
     }
     
-    self.clickBlock(indexPath.row - 1);
+    if (self.showImagesArray.count > 1) {
+        self.clickBlock(indexPath.row - 1);
+    } else {
+        self.clickBlock(0);
+    }
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didHighlightItemAtIndexPath:(NSIndexPath *)indexPath
